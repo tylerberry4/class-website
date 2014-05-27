@@ -1,16 +1,9 @@
 var gulp           = require('gulp'),
-    // sass           = require('gulp-sass'),
-    // csso           = require('gulp-csso'),
     connect        = require('gulp-connect'),
     deploy         = require("gulp-gh-pages");
 
 // Styles.
 gulp.task('styles', function() {
-  // return gulp.src('src/styles/main.scss')
-    // .pipe(sass({
-    //     errLogToConsole: true
-    //   }))
-    // .pipe(csso())
   return gulp.src('src/styles/main.css')
     .pipe( gulp.dest('dist/styles/'))
     .pipe(connect.reload());
@@ -55,7 +48,7 @@ gulp.task('default', function() {
 });
 
 // Deploy to gh-pages
-gulp.task('deploy', ['build'], function() {
-  gulp.src("src/**/*")
-    .pipe(deploy('', 'origin'));
+gulp.task('deploy', function() {
+  gulp.src("./dist/**/*")
+    .pipe(deploy('git@github.com:tiy-durham-june2014-frontend/class-website.git', 'origin'));
 });
