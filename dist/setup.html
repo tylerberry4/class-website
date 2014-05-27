@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Setup : TIYA FEE Class Summer 2014</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  </head>
+
+  <body>
+
+    <aside>
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <a href="/">
+            <img src="images/tiy-logo-white.png">
+          </a>
+          <h2>TIYA FEE Class Website</h2>
+          <p>SUMMER 2014</p>
+        </div>
+        <ul class="sidebar-nav">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="schedule.html">Schedule</a>
+          </li>
+          <li class="active">
+            <a href="setup.html">Setup</a>
+          </li>
+          <li>
+            <a href="resources.html">Resources</a>
+          </li>
+          <li>
+            <a href="policies.html">Policies</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="content container">
+      <h1>Setup</h1>
+      <hr>
+
+      <p class="lead">At the beginning of our class we'll be taking some time to get a few things installed on you machines. If this is something you'd like to get a head start on here are a list of items you'll be needing.</p>
+
+      <h2 id="dev">Development Tools</h2>
+
+      <h3><a href="http://codepen.io/">Codepen</a></h3>
+      <p>CodePen is a playground for the front end side of the web. It's all about inspiration, education, and sharing. <a href="http://codepen.io/">Sign for a Codepen account.</a></p>
+
+      <h3><a href="https://www.apple.com/osx/">OSX Mavericks</a></h3>
+      <p>OS X Mavericks (version 10.9) is the tenth major release of OS X, Apple Inc.'s desktop and server operating system for Macintosh computers. OS X Mavericks was announced on June 10, 2013, at WWDC 2013, and was released on October 22, 2013, as a free update through the Mac App Store worldwide.</p>
+
+      <ol>
+        <li>You'll need to sign in with you Apple ID. If you don't have one, <a href="https://www.apple.com/osx/">sign up here.</a></li>
+        <li>Download the Mavericks upgrade from the Apple Store: <a href="https://itunes.apple.com/us/app/os-x-mavericks/id675248567#">download here.</a></li>
+        <li>Double-click "Install OS X Mavericks" to begin installation.</li>
+      </ol>
+
+      <p><em>WARNING: The Mavericks upgrade can take a bit of time to complete and will require a restart. Plan on doing this in the evening or over a lunch break.</em></p>
+
+      <h3><a href="https://developer.apple.com/xcode/">XCode</a></h3>
+      <p>Xcode is an integrated development environment (IDE) containing a suite of software development tools developed by Apple for developing software for OS X and iOS.</p>
+
+      <p>The important thing is that we install the XCode Command-Line Tools.</p>
+
+      <ol>
+        <li>Go to the <a href="https://developer.apple.com/downloads/">Apple Developer Downloads</a> site.</li>
+        <li>Sign in with you Apple ID.</li>
+        <li>Search for "Command Line Tools (OS X Mavericks) for Xcode - April 2014."</li>
+        <li>Download the ".dmg" file for that package to your Desktop. <img src="images/xcode-screenshot.png">
+        </li>
+        <li>Once downloaded, double-click on the file to unpack it.</li>
+        <li>Double-click on the file called "Command Line Tools (OS X 10.9).pkg." and complete the guided installation instructions.</li>
+      </ol>
+
+      <p><em>NOTE: If you have any issues with the download, not to worry! We'll have the files on hand and help walk you through the installation.</em></p>
+
+      <h3><a href="http://brew.sh/">Homebrew</a></h3>
+      <p>A package manager for installing developmental tools onto your Apple computer.</p>
+
+      <ol>
+        <li>Open up Terminal.app (Applications > Utilities > Terminal)</li>
+        <li>Type the following command:
+          <code>
+            <pre>ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</pre>
+          </code>
+        </li>
+        <li>Follow the instructions on-screen.</li>
+        <li>When finished, run <code>brew doctor</code>.</li>
+      </ol>
+
+      <h3><a href="http://git-scm.com/">git</a></h3>
+      <p>git is a distributed revision control and source code management (SCM) system with an emphasis on speed. Every Git working directory is a full-fledged repository with complete history and full version tracking capabilities, not dependent on network access or a central server.</p>
+
+      <p>git comes with your installation of XCode Developer tools. If you'd like to have more control over what version of git you'd like to use, run <code>brew install git</code> to install with Homebrew.</p>
+
+      <h3><a href="http://github.com">Github</a></h3>
+      <p>GitHub is a web-based hosting service for software development projects that use the Git revision control system. <A href="https://github.com/join">Sign up for an account.</a></p>
+
+      <h3>Creating an SSH key</h3>
+      <p>You'll need an SSH key when using Github. SSH keys are a way to identify trusted computers, without involving passwords. Walk through the steps in the following tutorial to create your SSH key and add it to your Github account: <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a></p>
+
+      <h3><a href="https://atom.io/">Atom</a></h3>
+      <p>Atom is a free text editor you can use when writing, editing and crafting your code.</p>
+      <ol>
+        <li>Download Atom from <a href="https://atom.io/">the Atom website</a>.</li>
+        <li>After it's downloaded, move Atom to your Applications folder.</li>
+        <li>Open Atom.</li>
+        <li>Go to the Atom menu and click "Install Shell Commands".</li>
+        <li>Go back to the Atom menu and click "Preferences".</li>
+        <li>Click on "Packages" in the left-hand column.</li>
+        <li>Search for "Lint" under Install Packages.
+      Find the package called "Atom Lint".</li>
+        <li>Click "Install" and wait for it to be installed.</li>
+      </ol>
+
+      <p><em>NOTE: Sublime Text 3 is also an option, but will required a license purchase. <a href="http://www.sublimetext.com/3">Download here.</a></em></p>
+
+      <h3>
+        <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a>
+      </h3>
+      <p>Google Chrome is a web browser created by Google. We'll be using it for debugging, coding and general code reviews during class. <a href="https://www.google.com/intl/en/chrome/browser/">Download here.</a></p>
+
+      <h3><a href="http://nodejs.org/">Node</a></h3>
+      <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. </p>
+
+      <p>Install node.js via Homebrew by typing <code>brew install nodejs</code> into Terminal.app.</p>
+
+      <h3><a href="https://www.npmjs.org/">Node Package Manager (npm)</a></h3>
+      <p> npm is the official package manager for Node.js. It comes already installed when installing Node.js, but run through the following steps to make sure:</p>
+
+      <ol>
+        <li>Open Terminal.app (Applications > Utilities > Terminal)</li>
+        <li>Type <code>npm help</code></li>
+        <li>You should see a list of usage commands listed out.</li>
+      </ol>
+
+      <h2>Other Tools</h2>
+
+      <h3><a href="https://www.hipchat.com/">Hipchat</a></h3>
+      <p>Hipchat is a private group chat client that can be run on your desktop, browser or mobile phone. We'll be using Hipchat as our teams chat client throughout the class and a way for us to connect with eachother online.</p>
+
+      <h3><a href="http://screenhero.com/">Screenhero</a></h3>
+      <p>Screenhero is an interactive screen sharing application. We'll be using it throughout the class for homework review and debugging during the lectures.</p>
+
+      <h3><a href="http://www.alfredapp.com/">Alfred (Optional)</a></h3>
+      <p>Alfred is a productivity application for Mac OS X, which aims to save you time in searching your local computer and the web. It can help you when doing useful things like: easily search for files and folders on your computer, quick web searches, access to your clipboard history and more!</p>
+
+    </div>
+
+  </body>
+</html>
