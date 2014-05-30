@@ -31,7 +31,7 @@ aside {
     bottom: 0;
     width: 250px;
     text-align: left;
-    padding: 30px 15px;
+    padding: 70px 15px;
   }
 }
 
@@ -69,7 +69,7 @@ aside ul.sidebar-nav li.active:before {
   .sidebar-sticky {
     position: absolute;
     right:  30px;
-    top: 30px;
+    top: 70px;
     left:   30px;
   }
 }
