@@ -19,7 +19,7 @@ aside {
   text-align: center;
   padding: 30px 15px 15px 15px;
   color: #FFFFFF;
-  background-color: #cd822b;
+  background-color: #FD0752;
 }
 
 @media (min-width: 768px) {
@@ -106,7 +106,7 @@ aside ul.sidebar-nav li.active:before {
 }
 
 a {
-  color: #308ae5;
+  color: #FD0752;
 }
 
 h1, h2, h3, h4, h5, h6 {
